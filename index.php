@@ -1,9 +1,6 @@
 <?php 
 
-require "./Pattern/Memento.php";
-require "./Pattern/Originator.php";
 require "./Klass/ObjectStore.php";
-
 require "post.php";
 
 $ostore = new ObjectStore( 'store' );
